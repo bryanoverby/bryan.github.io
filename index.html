@@ -2,106 +2,63 @@
 <html>
 
 <head>
-    <title>Acme Web Design</title>
-    <link rel="stylesheet" href="mgrid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header Showcase -->
-    <header id="showcase" class="grid">
-        <div class="bg-image"></div>
-        <div class="content-wrap">
-            <h1>Welcome to Acme Web Solutions</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto sint mollitia nulla vel iure laudantium velit
-                libero accusantium hic. Esse!</p>
-            <a href="#section-b" class="btn">Read More</a>
+
+    <!-- Top menu -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
         </div>
-    </header>
+    </div>
 
-    <!-- Main Area -->
-    <main id="main">
-        <!-- Section A -->
-        <section id="section-a" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">Web & Application Development</h2>
-                <div class="content-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, itaque voluptatem asperiores ad magnam,
-                        soluta quisquam tempora dolorum, quas optio explicabo repudiandae vero molestiae beatae vitae quae
-                        at deserunt quod voluptas. Quibusdam et, molestiae debitis eum iste atque illo nostrum.</p>
-                </div>
-            </div>
-        </section>
+    <span id="hidemenu" style="font-size:75px;cursor:pointer" onclick="openNav()">&nbsp;&#9776;&nbsp;Menu</span>
 
-        <!-- Section B -->
-        <section id="section-b" class="grid">
-            <ul>
-                <li>
-                    <div class="card">
-                        <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg" alt="">
-                        <div class="card-content">
-                            <h3 class="card-title">Web Development</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At libero culpa ex obcaecati corporis
-                                ipsam in eaque molestiae ut illum?</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <img src="https://images.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt="">
-                        <div class="card-content">
-                            <h3 class="card-title">Mobile Applications</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At libero culpa ex obcaecati corporis
-                                ipsam in eaque molestiae ut illum?</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="">
-                        <div class="card-content">
-                            <h3 class="card-title">Tech Marketing</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At libero culpa ex obcaecati corporis
-                                ipsam in eaque molestiae ut illum?</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Section C -->
-        <section id="section-c" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">We handle all of your digital needs</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente voluptate repellendus ad commodi. Laudantium
-                    dolore neque amet vero! Adipisci, aspernatur!</p>
-            </div>
-        </section>
-
-        <!-- Section D -->
-        <section id="section-d" class="grid">
-            <div class="box">
-                <h2 class="content-title">Contact Us</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora dolorem ratione, enim dicta eos ad esse
-                    ipsa quasi animi quae?</p>
-                <p>contact@acmewebsolutions.test</p>
-            </div>
-            <div class="box">
-                <h2 class="content-title">About Our Company</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, doloremque nisi laborum, molestias eum,
-                    obcaecati facilis exercitationem ab minima doloribus sequi dignissimos earum nemo rerum velit similique!
-                    Debitis, earum deleniti?</p>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer id="main-footer" class="grid">
-        <div>Acme Web Solutions</div>
-        <div>Project By
-            <a href="https://bryanoverby.github.io" target="_blank">Acme Web Design</a>
+    <!-- Main Container -->
+    <div class="wrapper">
+        <!-- Side menu -->
+        <div class="sidemenu">
+            <li>
+                <a href="#" class="logo">Holy Family</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Clients</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li class="bottom">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
         </div>
-    </footer>
 
+        <!-- Content -->
+        <div class="content">
+            <h1>Holy Family Rosaries</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis similique aliquid atque eius inventore, praesentium quis? Delectus nihil, nulla omnis voluptatum magnam nisi in est cum praesentium odio, incidunt fugiat nesciunt facilis recusandae voluptate, animi deleniti cupiditate veritatis quisquam magni. Enim dignissimos, odio impedit eius expedita vitae culpa illo fuga.</p>
+        </div>
+    </div>
+
+
+
+    <script src="menu.js"></script>
 
 </body>
 
