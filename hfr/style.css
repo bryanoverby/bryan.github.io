@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Gothic A1', sans-serif;
     background: #333;
@@ -145,4 +146,153 @@ body {
                 display: block;
             }
 
+=======
+body {
+    font-family: 'Gothic A1', sans-serif;
+    background: #333;
+    margin: 0;
+}
+
+        #hidemenu {
+            display: none;
+        }
+
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 15%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #bbb;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .overlay a:hover,
+        .overlay a:focus {
+            color: #f1f1f1;
+        }
+
+        .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+        }
+
+        .sidemenu {
+            text-align: left;
+            padding-left: 10px;
+            display: block;
+            background: #333;
+        }
+
+        #logo {
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+
+        .sidemenu a {
+            text-decoration: none;
+            font-size: 36px;
+            color: #bbb;
+        }
+
+        .sidemenu a:hover {
+            color: white;
+        }
+
+        .sidemenu li {
+            list-style-type: none;
+            padding-left: 8px;
+        }
+
+        .bottom {
+            margin-top: 160%;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 300px 4fr;
+            height: 100vh;
+        }
+
+        .content {
+            background: #fdfff8;
+            padding-top: 65px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        hr {
+            border: 0;
+            height: 5px;
+            background: #333;
+            border-radius: 3px;
+        }
+
+        .wrapper2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            padding: 10px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        .content p {
+            font-size: 2rem;
+        }
+
+        @media screen and (max-width: 1000px) {
+            #hidemenu {
+                display: block;
+                color: white;
+                background: #333;
+                border-radius: 5px;
+            }
+            .overlay-content a {
+                font-size: 100px;
+            }
+            .sidemenu{
+                display: none;
+            }
+            .wrapper {
+                display: block;
+            }
+
+            .wrapper2 {
+                display: block;
+            }
+
+>>>>>>> c9b28e7b592d28d4a9a924b1327a1174e16beb4d
         }
