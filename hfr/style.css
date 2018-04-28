@@ -77,10 +77,6 @@ body {
             padding-left: 8px;
         }
 
-        .bottom {
-            margin-top: 160%;
-        }
-
         .wrapper {
             display: grid;
             grid-template-columns: 300px 4fr;
@@ -99,6 +95,11 @@ body {
             height: 5px;
             background: #333;
             border-radius: 3px;
+        }
+
+        #mainimg {
+            width: 100%;
+            height: auto;
         }
 
         .wrapper2 {
