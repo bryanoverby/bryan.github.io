@@ -103,7 +103,7 @@ body {
             border-radius: 3px;
         }
 
-        #mainimg {
+        .mainimg {
             width: 100%;
             height: auto;
         }
